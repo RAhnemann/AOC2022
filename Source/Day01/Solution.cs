@@ -57,8 +57,8 @@ public class Solution : BaseSolution
             }
         }
 
-        sums.Sort();
-        sums.Reverse();
-        return (sums[0] + sums[1] + sums[2]).ToString();
+        
+        
+        return sums.OrderByDescending(_ => _).Take(3).Sum().ToString();
     }
 }
