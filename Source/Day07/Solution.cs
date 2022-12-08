@@ -4,7 +4,7 @@ namespace AdventOfCode.Day07;
 
 public class Solution : BaseSolution
 {
-    public Solution() : base(7, "File Dirs")
+    public Solution() : base(7, "")
     {
         commands = File.ReadAllLines("D:\\Dev\\aoc2022\\Source\\Input\\Day7.txt");
     }
